@@ -1,0 +1,103 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+html, 
+body {
+    /* по умолчанию у каждого браузера размер шрифта 16px
+    можно сбросить до 10px, чтобы 1rem==10px */
+    font-size: 62.5%;
+}
+
+.container {
+    /* 1135px = 113.5rem */
+    width: 113.5rem;
+    /* align horizontally and center*/
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_menu_logo {
+    width: 7.9rem;
+    height: 2.8rem;
+    margin-right: 3.9rem;
+}
+
+.header_nav a:not(:last-child) {
+    margin-right: 2.4rem;
+}
+
+.header_nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header_socials_icon {
+    width: 1.7rem;
+    height: 1.6rem;
+}
+
+.header_socials_icon:not(:last-child) {
+    margin-right: 2rem;
+}
+
+body {
+    background: url(../img/background.jpg);
+}
+
+/*footer starts here*/
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background: #030102;
+    color: rgb(90, 93, 95);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* usually browsers have paddings for lists by default*/
+.footer_links {
+    padding-left: 0;
+    display: flex;
+    color: rgb(90, 93, 95);
+
+}
+
+.footer_links li {
+    list-style: none;
+}
+
+.footer_links li a {
+    color: rgb(90, 93, 95);
+    text-decoration: none;
+}
+
+.footer_links li:not(:last-child) {
+    margin-right: 2.5rem;
+}
