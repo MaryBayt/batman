@@ -206,6 +206,7 @@ img {
     background-size: cover;
     background-position-x: center;
     background-position-y: top;
+    height: 100vh;
 }
 
 .main_rating {
@@ -497,6 +498,7 @@ img {
 
     .main {
         background-position-x: 55%;
+        height:auto;
     }
 
     .main_description_wrapping {
