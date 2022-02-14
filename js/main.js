@@ -43,3 +43,5 @@ const swiper = new Swiper('.main-slider', {
       modalWindow.classList.remove('active');
     }
   });
+
+  //need to fix bugs: 1) stop audio when exit video 2) show header back in the desktop version after open-closing burger in mobile version
